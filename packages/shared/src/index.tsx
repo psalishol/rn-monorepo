@@ -8,7 +8,7 @@ export function App() {
       {/* <Image style={styles.logo} source={LogoSrc} /> */}
       <Text style={styles.text}>Welcome to React Native!</Text>
       <View style={styles.platformRow}>
-        <Text style={styles.text}>Running ons: </Text>
+        <Text style={styles.text}>Running on: </Text>
         <View style={styles.platformBackground}>
           <Text style={styles.platformValue}>{Platform.OS}</Text>
         </View>
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     height: "100%",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#1F2123",
+    backgroundColor: "white",
   },
   logo: {
     width: 120,

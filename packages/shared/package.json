@@ -1,0 +1,22 @@
+{
+  "name": "@mono/app",
+  "private": true,
+  "version": "1.0.0",
+  "main": "src",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.71.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}

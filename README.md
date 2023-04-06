@@ -49,46 +49,62 @@ To get started with the monorepo, follow these steps:
 
 To start the macOS Metro server, run:
 
-```yarn macos:start```
+```
+yarn macos:start
+```
 
 To build the macOS app, run:
 
-```yarn macos```
+```
+yarn macos
+```
 
 
 #### Mobile
 
 To start the Metro server for mobile, run:
 
-```yarn mobile:start```
+```
+yarn mobile:start
+```
 
 
 To build the app for Android, run:
 
-```yarn run android```
+```
+yarn run android
+```
 
 To build the app for iOS, run:
 
-```yarn ios```
+```
+yarn ios
+```
 
 
 #### Web
 
 To start the Next.js server for web, run:
 
-```yarn next:start```
+```
+yarn next:start
+```
 
 
 #### Windows
 
 To start the Metro server for Windows, run:
 
-```yarn windows:start```
+```
+yarn windows:start
+```
 
 
 To build the app for Windows, run:
 
-```yarn windows```
+```
+yarn windows
+```
 
 
 ### Contributing

@@ -2,6 +2,8 @@
 
 This is a monorepo built for React Native with support for mobile, macOS, Windows, and web using TypeScript. The monorepo structure enables shared code, improved build performance, and consistent development practices.
 
+<img width="1433" alt="monorepo-screenshot" src="https://user-images.githubusercontent.com/85138073/230327690-bbc19616-4e2e-48c7-a7ca-f7a78c272d7d.png">
+
 ### Project Structure
 
 The project structure of the monorepo is as follows:

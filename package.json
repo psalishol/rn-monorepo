@@ -1,7 +1,36 @@
 {
-  "name": "rn-monorepo",
+  "name": "mono",
+  "private": true,
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Psalishol samuel <psalishol80@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": {
+    "nohoist": [
+      "**/react",
+      "**/react-dom",
+      "**/react-native",
+      "**/react-native/**",
+      "**/react-native-codegen",
+      "**/react-native-dev-menu",
+      "**/react-native-macos",
+      "**/react-native-windows"
+    ],
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock",
+    "mobile:start": "yarn workspace @mono/mobile start",
+    "macos:start": "yarn workspace @mono/macos start",
+    "windows:start": "yarn workspace @mono/windows start",
+    "ios": "yarn workspace @mono/mobile ios",
+    "android": "yarn workspace @mono/mobile android",
+    "macos": "yarn workspace @mono/macos macos",
+    "web:dev": "yarn workspace @mono/next dev",
+    "web:build": "yarn workspace @mono/next build",
+    "web:start": "yarn workspace @mono/next start",
+    "windows": "yarn workspace @mono/windows windows"
+  }
 }

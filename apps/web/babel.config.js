@@ -1,3 +1,10 @@
 module.exports = {
-  presets: ['module:metro-react-native-babel-preset'],
-};
+  presets: ['next/babel'],
+  plugins: [
+    ['react-native-web', { commonjs: true }],
+    ['transform-define', {
+      '__DEV__': process.env.NODE_ENV,
+      '__SUBPLATFORM__': 'next',
+    }]
+  ],
+}

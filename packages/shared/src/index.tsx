@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Image,
-  Platform,
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  View,
-} from "react-native";
+import { Platform, SafeAreaView, StyleSheet, Text, View } from "react-native";
 // import LogoSrc from "./logo.png";yarb
 
 export function App() {
@@ -23,10 +16,6 @@ export function App() {
     </SafeAreaView>
   );
 }
-
-const MakingTheRealThingMatter = () => {
-  return <View></View>;
-};
 
 const styles = StyleSheet.create({
   root: {
